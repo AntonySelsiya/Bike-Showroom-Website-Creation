@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text.css" href="./styles.css">
+        <title>Sign In</title>
+        <style>
+            ul{
+                list-style-type: none;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                background-image: url(./projectpics/road.jpg);
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            .signin-container {
+                background: white;
+                padding: 2rem;
+                border-radius: 12px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                width: 100%;
+                max-width: 300px;
+                text-align: center;
+            }
+
+            h1 {
+                margin-bottom: 1.5rem;
+                color: #333;
+                font-family: cursive;
+            }
+
+            .input-group {
+                margin-bottom: 1rem;
+                text-align: left;
+            }
+
+            .input-group label {
+                display: block;
+                margin-bottom: 0.5rem;
+                font-weight: bold;
+            }
+
+            .input-group input {
+                width: 100%;
+                padding: 0.5rem;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 1rem;
+            }
+
+            .signin-btn {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                padding: 0.75rem 1rem;
+                border-radius: 4px;
+                font-size: 1rem;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            .signin-btn:hover {
+                background-color: #0056b3;
+            }
+
+            .signup-link {
+                margin-top: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .signup-link a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+            .signup-link a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="signin-container">
+            <h1>Sign In</h1>
+            <form action="index.html">
+              <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+              </div>
+              <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+              </div>
+              <button type="submit" class="signin-btn">Sign In</button>
+            </form>
+            <p class="signup-link">Don't have an account? <a href="index.html">Sign Up</a></p>
+          </div>
+        <ul>
+            <li>
+                <a href="index.html"></a>
+            </li>
+        </ul>
+    </body>
+</html>
